@@ -1,0 +1,44 @@
+{
+  
+  "compilerOptions": {
+
+    "paths": {
+      "@/fonts": ["./styles/fonts"]
+    },
+
+
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "strictNullChecks": true
+  },
+  "include": [
+    "next-env.d.ts",
+    ".next/types/**/*.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "src/pages/about.js"
+, "src/pages/indexxx.tsx", "src/app/pagesss.tsx", "src/app/api/students/route.tsx", "src/app/api/content/route.js", "src/app/api/route.tsx"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
